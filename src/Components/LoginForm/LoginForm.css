@@ -1,0 +1,117 @@
+.wrapper{
+    width: 520px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 16px;
+    padding: 30px 40px;
+    backdrop-filter: blur(20px);
+
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+
+}
+
+
+.input-Box{
+
+width: 100%;
+position: relative;
+height: 50px;
+margin: 30px 0;
+
+.icons{
+position: absolute;
+right: 20px;
+top: 7px;
+color: rgb(133, 235, 255);}
+
+}
+.input-Box input{
+    width: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 8px 20px;
+    margin-bottom: 3px;
+    border-bottom: 2px solid rgb(46, 169, 197);
+    
+    
+
+}
+.remeperForgit{
+    display: flex;
+    justify-content: space-between;
+
+}
+.remeperForgit a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+.remeperForgit a:hover{
+color: rgb(30, 154, 179);
+text-decoration: underline;
+transition: all 500ms;
+
+
+}
+
+/* input [ type="checkbox" ]{
+margin-right: 5px;
+color: rgb(38, 95, 95);
+background-color: transparent;
+
+
+
+} */
+
+
+input[type="checkbox"] {
+    width: 0.9em;
+    margin-right: 6px;
+
+    
+    accent-color: rgb(30, 154, 179);
+  }
+  
+.submit{
+    width: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 15px;
+    padding: 2px;
+    border-bottom: 2px solid rgb(46, 169, 197);
+    margin: 10px 0;
+
+
+
+}
+.submit:hover{
+    background-color: rgb(30, 154, 179);
+    border: 2px solid rgb(30, 154, 179);
+    transition: all 500ms;
+
+
+}
+.registerLink {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.registerLink a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.registerLink a:hover{
+    color:rgb(30, 154, 179);
+    text-decoration: underline;
+    transition: all 500ms;
+
+}
